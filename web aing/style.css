@@ -1,0 +1,242 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  background: #39a2db;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  width: 100px;
+  margin: auto;
+  line-height: 80px;
+  position: relative;
+  bottom: 10px;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 25px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #a2dbfa;
+  z-index: 1;
+  border-bottom: 1px solid #a2dbfa;
+}
+
+nav ul {
+  list-style-type: none;
+  position: absolute;
+  top: 15px;
+  bottom: 900px;
+  right: 50px;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: #36606b;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-family: "comic sans ms";
+  font-weight: 10;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: black;
+  width: 100%;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.tutor-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: "100px";
+  border-radius: 50%;
+}
+.daftar-la {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-game {
+  margin: 0px -20px 20px 350px;
+  padding: 0px 30px 20px 0px;
+}
+
+.card-title h5 {
+  text-align: right;
+}
+
+.kartu-tutor p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.partner-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kartu-partner {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kartu-partner img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#contact {
+  background: #a2dbfa;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 90;
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: black;
+  width: 100%;
+  line-height: 20px;
+}
+p {
+  font-family: "comic sans ms";
+  font-weight: 90;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: black;
+  width: 100%;
+  line-height: 20px;
+}
+.foter-info {
+  padding: 10px 60px 0px 60px;
+  width: 40%;
+}
+.foter-quick {
+}
+#copyright {
+  font-family: "comic sans ms";
+  font-weight: 90;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .kartu-tutor {
+    width: 50%;
+  }
+
+  .kartu-partner {
+    width: 50%;
+  }
+}
